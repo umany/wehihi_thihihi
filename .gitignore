@@ -130,3 +130,7 @@ dmypy.json
 
 # VSCode
 .vscode/
+
+# Config files
+config.ini
+token
