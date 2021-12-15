@@ -1,7 +1,7 @@
 from random import randint
 
 
-def compose_tweet():
+def wehihi():
     tweet = ("ｳｪ", "ﾃｨ")[randint(0, 1)]
     i = randint(0, 3)
     text1 = ("ﾋ", "-", "...", "")[i]
@@ -17,8 +17,3 @@ def compose_tweet():
     tweet += text3 * randint(1, 20)
 
     return tweet
-
-
-with open("wehihi.txt", "w", encoding="utf-8") as fd:
-    for n in range(10000):
-        fd.write(compose_tweet() + "\n")
